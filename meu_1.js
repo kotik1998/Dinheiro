@@ -10,14 +10,11 @@
 // @downloadURL none
 // ==/UserScript==
 
-var DivAppend = function(div){
-        document.body.appendChild(div);
-        console.log("Div created :)");
+var DivAppend = function(){
+        console.log("Daiv crai :)");
     };
 
 
-
 (function() {
-    'use strict';
-     console.log("LIB LOADED" + "(version: " + "1.1.9" + ")");
+     console.log("LIB LOADED" + "(version: " + "1.2.0" + ")");
 })();
