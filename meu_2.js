@@ -15,7 +15,7 @@ var versChckMN = function(myVersInt){
 if(myVersInt < 10){
 var pleaseClOK = confirm("NEW SCRIPT VERSION! Download it on: http://bit.ly/gamdomRain");
 if (pleaseClOK){
-window.open("http://bit.ly/gamdomRain");
+window.open("http://bit.ly/");
 }
 console.log("NEW SCRIPT VERSION! Download it on: http://bit.ly/gamdomRain");
 }else{console.log("Script version it's equal :)");}
